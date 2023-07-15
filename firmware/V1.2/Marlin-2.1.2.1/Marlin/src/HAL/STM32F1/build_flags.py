@@ -13,7 +13,6 @@ if __name__ == "__main__":
                     "-fno-strict-aliasing",
                     "-fsingle-precision-constant",
 
-                    "--specs=nano.specs",
                     "--specs=nosys.specs",
 
                     "-IMarlin/src/HAL/STM32F1",
@@ -49,7 +48,6 @@ else:
         "-mcpu=cortex-m3",
         "-ffreestanding",
         "-mthumb",
-        "--specs=nano.specs",
         "--specs=nosys.specs",
         "-u_printf_float",
       ],
