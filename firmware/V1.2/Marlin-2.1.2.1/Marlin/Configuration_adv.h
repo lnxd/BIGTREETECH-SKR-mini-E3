@@ -3154,6 +3154,7 @@
    * @section tmc/stallguard
    */
   //#define SENSORLESS_HOMING // StallGuard capable drivers only
+  #define DIAG_JUMPERS_REMOVED // Motherboard DIAG jumpers must be removed when SENSORLESS_HOMING is disabled.
 
   #if EITHER(SENSORLESS_HOMING, SENSORLESS_PROBING)
     // TMC2209: 0...255. TMC2130: -64...63
