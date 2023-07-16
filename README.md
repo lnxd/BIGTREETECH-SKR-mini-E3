@@ -1,3 +1,7 @@
+# Custom Build
+
+Unfortunately BTT haven't released any updated versions of Marlin for the v1.2 board I have for years. This repo contains the latest version of Marlin, along with custom changes to suit my specific printer, including BL-Touch support. Feel free to fork this repo, the firmware should compile without issue, but you will need to update the measurements first.
+
 # BIGTREETECH SKR Mini E3 V1.x and V2.x
 
 BIGTREETECH SKR Mini E3 V1.x and V2.x mainboards are ultra-quiet, low-power, high-quality 3D printing machine controller boards from BIQU.
